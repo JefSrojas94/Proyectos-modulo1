@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&display=swap');
+/*Encabezado*/
+
+header{
+    background-image: url(https://img.freepik.com/premium-photo/programming-code-abstract-technology-background-software-developer-computer-script_34663-2.jpg);
+    height: 230px;
+
+}
+.image-profile{
+    width: 100px;
+    height: 100px;
+    margin-top: 60px ;
+    margin-bottom: none;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    border-radius: 50%;
+    border-style: dashed;
+    border-color: rgb(234, 187, 0);
+    background-size: 100% auto;
+   
+}
+.caja-nombre{
+    margin-top: 0;
+    background-color:rgb(234, 187, 0);
+    width: 200px;
+    height: 50px;
+    margin-left: 550px;
+    border-radius: 5px;
+    padding: 1px;
+    z-index: -11;
+}
+#Nombre{
+    font-family:"Bruno Ace SC";
+    font-size: 18px;
+}
+/*Barra de Navegación*/
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+#menu ul li{
+    float:right;
+    border-right: 1px solid #bbb;
+
+}
+#menu li a:hover {
+  background-color: #00fe7b;
+}
+#menu a{
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 12px 26px;
+    font-family:"Bruno Ace SC";
+    font-size: 18px;
+}
+#menu{
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#959595+0,0d0d0d+46,010101+50,0a0a0a+53,4e4e4e+76,383838+87,1b1b1b+100;Black+Gloss+Pipe */
+    background: #959595; /* Old browsers */
+    background: -moz-linear-gradient(top,  #959595 0%, #0d0d0d 46%, #010101 50%, #0a0a0a 53%, #4e4e4e 76%, #383838 87%, #1b1b1b 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  #959595 0%,#0d0d0d 46%,#010101 50%,#0a0a0a 53%,#4e4e4e 76%,#383838 87%,#1b1b1b 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  #959595 0%,#0d0d0d 46%,#010101 50%,#0a0a0a 53%,#4e4e4e 76%,#383838 87%,#1b1b1b 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#959595', endColorstr='#1b1b1b',GradientType=0 ); /* IE6-9 */
+    width: 1000px;
+    height: 45px;
+}
+
+
+
+ol{
+    list-style: none;
+}
+main{
+    text-align: center;
+}
+header{
+    text-align: center;
+}
+
+.name{
+    width: 200px;
+    height: 200px;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    border-radius: 50%;
+    background-size: 100% auto;
+}
+.dibujando{
+    width: 200px;
+    height: 200px;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    border-radius: 50%;
+    background-size: 100% auto;
+}
+.deporte{
+    width: 200px;
+    height: 200px;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    border-radius: 50%;
+    background-size: 100% auto;
+}
