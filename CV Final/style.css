@@ -1,0 +1,82 @@
+@property --gradient-angle {
+    syntax: "<angle>";
+    initial-value: 0deg;
+    inherits: false;
+  }
+header{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    
+}
+:root {
+    --clr-1: #370071;
+    --clr-2: #8300b3;
+    --clr-3: #ff07ea;
+    --clr-4: #8f2d7b;
+    --clr-5: #7c5469;
+  }
+#foto-perfil{
+    width: 100px;
+    height: 100px;
+    margin-top: 60px ;
+    margin-bottom: none;
+    padding: 0.5%;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    border-radius: 50%;
+    border-style: dashed;
+    border-color: rgb(234, 187, 0);
+    background-size: 100% auto;
+    align-content: center; 
+    
+
+}
+#nombre::before,
+#nombre::after{
+    content: "";
+  position: absolute;
+  inset: -0.5rem;
+  z-index: -1;
+  background: conic-gradient(
+    from var(--gradient-angle),
+    var(--clr-3),
+    var(--clr-4),
+    var(--clr-5),
+    var(--clr-4),
+    var(--clr-3)
+  );
+  border-radius: inherit;
+  animation: rotation 20s linear infinite;
+}
+#nombre::after{
+    filter: blur(3.5rem);
+}
+@keyframes rotation {
+    0% {
+      --gradient-angle: 0deg;
+    }
+    100% {
+      --gradient-angle: 360deg;
+    }
+  }
+#nombre{
+    /* display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0;
+    background-color:rgb(234, 187, 0);
+    width: 200px;
+    height: 50px;
+    border-radius: 5px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 10vh;
+    aspect-ratio: 3/1;
+    background: white;
+    border-radius: 0.5rem;
+    position: relative;
+}
