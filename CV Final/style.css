@@ -49,7 +49,7 @@ header{
     var(--clr-3)
   );
   border-radius: inherit;
-  animation: rotation 20s linear infinite;
+  animation: rotation 5s linear infinite;
 }
 #nombre::after{
     filter: blur(3.5rem);
