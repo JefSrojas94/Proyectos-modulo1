@@ -3,12 +3,16 @@
     initial-value: 0deg;
     inherits: false;
   }
+body{
+    background: rgb(0, 0, 0);
+}
 header{
     display: flex;
     flex-direction: column;
     align-content: center;
     flex-wrap: wrap;
     align-items: center;
+    
     
 }
 :root {
